@@ -119,6 +119,7 @@ int main(int argc, char *argv[])
    }
 
    printf("\nEnter key: ");
+   fflush(stdout);
    if(fgets((char *)tmpkey,sizeof(tmpkey), stdin) == NULL)
       exit(-1);
    outlen = sizeof(key);
