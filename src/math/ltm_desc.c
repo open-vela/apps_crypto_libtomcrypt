@@ -420,7 +420,7 @@ static int set_rand(void *a, int size)
 const ltc_math_descriptor ltm_desc = {
 
    "LibTomMath",
-   (int)DIGIT_BIT,
+   (int)MP_DIGIT_BIT,
 
    &init,
    &init_copy,
